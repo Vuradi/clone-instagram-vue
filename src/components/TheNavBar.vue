@@ -1,0 +1,13 @@
+<template>
+  <header class="header">
+    <div class="header__content _container">
+
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+
+};
+</script>

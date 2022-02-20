@@ -1,0 +1,21 @@
+@import "assets/fonts/stylesheet.css";
+@import "scss/reset.scss";
+@import "scss/fonts/font-icons.css";
+
+$fontFamily: 'Segoe UI';
+$maxWidth: '856px';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+._container {
+  max-width: $maxWidth;
+  margin: 0 auto;
+}

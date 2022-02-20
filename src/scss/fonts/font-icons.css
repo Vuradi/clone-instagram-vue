@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('icons.ttf?8nuy5d') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow:before {
+  content: "\e900";
+}
+._icon-comment:before {
+  content: "\e901";
+}
+._icon-favourite:before {
+  content: "\e902";
+}
+._icon-favourite-fill:before {
+  content: "\e903";
+}
+._icon-home:before {
+  content: "\e904";
+}
+._icon-home-fill:before {
+  content: "\e905";
+}
+._icon-loupe:before {
+  content: "\e906";
+}
+._icon-messenger:before {
+  content: "\e907";
+}
+._icon-messenger-fill:before {
+  content: "\e908";
+}
+._icon-navigate:before {
+  content: "\e909";
+}
+._icon-navigate-fill:before {
+  content: "\e90a";
+}
+._icon-new-messages:before {
+  content: "\e90b";
+}
+._icon-new-posts:before {
+  content: "\e90c";
+}
+._icon-option:before {
+  content: "\e90d";
+}
+._icon-play:before {
+  content: "\e90e";
+}
+._icon-play-circle:before {
+  content: "\e90f";
+}
+._icon-profile:before {
+  content: "\e910";
+}
+._icon-save:before {
+  content: "\e911";
+}
+._icon-share-post:before {
+  content: "\e912";
+}
+._icon-slides:before {
+  content: "\e913";
+}
+._icon-tagged:before {
+  content: "\e914";
+}
+._icon-update:before {
+  content: "\e915";
+}
+._icon-user:before {
+  content: "\e916";
+}
+._icon-video:before {
+  content: "\e917";
+}
+._icon-view-posts:before {
+  content: "\e918";
+}
