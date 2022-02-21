@@ -16,7 +16,7 @@
           <li class="menu__item"><a href="" class="menu__link _icon-favourite"></a></li>
           <li class="menu__item">
             <a href="" class="menu__link">
-            <img src="../assets/profile/girl.png" alt="">
+            <img src="../assets/img/posts/girl-post.png" alt="">
              </a>
           </li>
         </ul>

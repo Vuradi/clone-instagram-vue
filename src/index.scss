@@ -1,10 +1,12 @@
 @import "assets/fonts/stylesheet.css";
 @import "scss/reset.scss";
+@import "scss/ui.scss";
 @import "scss/header.scss";
+@import "scss/home.scss";
 @import "scss/fonts/font-icons.css";
 
 $fontFamily: 'Segoe UI';
-$maxWidth: 906px;
+$maxWidth: 984px;
 $mainBackground: #FAFAFA;
 
 body {
@@ -28,3 +30,4 @@ body {
   padding: 0 25px;
   margin: 0 auto;
 }
+

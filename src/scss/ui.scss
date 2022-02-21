@@ -1,0 +1,25 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90px;
+  padding: 0 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18 / 14 * 100%;
+}
+
+.btn_blue {
+  background: #0095F6;
+  color: #FFFFFF;
+  transition: background 0.5s ease;
+  &:hover {
+    background: #053657;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
