@@ -22,25 +22,44 @@
   <div class="stories">
     <div class="stories__container _container">
       <div class="stories__wrapper">
-        <div class="stories__story story">
+        <a href="#"  class="stories__story story">
           <img src="../assets/img/posts/girl2-post.png" alt="girl">
           <p class="story__title">Made us</p>
-        </div>
-        <div class="stories__story story">
+        </a>
+        <a href="#"  class="stories__story story">
           <img src="../assets/img/posts/girl3-post.png" alt="girl">
           <p class="story__title">Lorem...</p>
-        </div>
-        <div class="stories__story story">
+        </a>
+        <a href="#"  class="stories__story story">
           <img src="../assets/img/posts/boy-post.png" alt="girl">
           <p class="story__title">Lorem...</p>
-        </div>
-        <div class="stories__story story">
+        </a>
+        <a href="#" class="stories__story story">
           <img src="../assets/img/posts/girl4-post.png" alt="girl">
           <p class="story__title">Lorem...</p>
-        </div>
+        </a>
       </div>
     </div>
   </div>
+  <div class="toggle-content content">
+    <div class="content__container _container">
+      <nav class="content__navigation">
+        <a href="#" class="content__item _icon-view-posts"><span>POST</span></a>
+        <a href="#" class="content__item _icon-video"><span>REELS</span></a>
+        <a href="#" class="content__item _icon-play-circle"><span>VIDEOS</span></a>
+        <a href="#" class="content__item _icon-tagged"><span>TAGGED</span></a>
+      </nav>
+    </div>
+  </div>
+  <section class="posts">
+    <div class="posts__container _container">
+      <a href="#" class="post__link"><img src="../assets/img/posts/girl-post.png" alt="girl"></a>
+      <a href="#" class="post__link"><img src="../assets/img/posts/girl2-post.png" alt="girl"></a>
+      <a href="#" class="post__link"><img src="../assets/img/posts/girl3-post.png" alt="girl"></a>
+      <a href="#" class="post__link"><img src="../assets/img/posts/girl4-post.png" alt="girl"></a>
+      <a href="#" class="post__link"><img src="../assets/img/posts/boy-post.png" alt="girl"></a>
+    </div>
+  </section>
 </template>
 
 <script>
