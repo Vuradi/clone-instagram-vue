@@ -7,7 +7,7 @@
       <div class="user-profile__info info">
         <div class="info__common">
           <div class="info__nickname">terrylucas</div>
-          <button class="btn btn_blue">Follow</button>
+          <button class="info__btn btn_blue">Follow</button>
           <div class="info__drop">&hellip;</div>
         </div>
         <div class="info__statistic">
@@ -17,6 +17,13 @@
         </div>
         <div class="info__name">Terry Lucas</div>
       </div>
+    </div>
+  </div>
+  <div class="mobile-actions _container">
+    <div class="mobile-actions__wrapper">
+      <button class="mobile-actions__btn-followers">Followers</button>
+      <button class="mobile-actions__btn-message">Message</button>
+      <button class="mobile-actions__btn-arrow _icon-arrow"></button>
     </div>
   </div>
   <div class="stories">
@@ -53,11 +60,13 @@
   </div>
   <section class="posts">
     <div class="posts__container _container">
+      <div class="posts__wrapper">
       <a href="#" class="post__link"><img src="../assets/img/posts/girl-post.png" alt="girl"></a>
       <a href="#" class="post__link"><img src="../assets/img/posts/girl2-post.png" alt="girl"></a>
       <a href="#" class="post__link"><img src="../assets/img/posts/girl3-post.png" alt="girl"></a>
       <a href="#" class="post__link"><img src="../assets/img/posts/girl4-post.png" alt="girl"></a>
       <a href="#" class="post__link"><img src="../assets/img/posts/boy-post.png" alt="girl"></a>
+      </div>
     </div>
   </section>
 </template>

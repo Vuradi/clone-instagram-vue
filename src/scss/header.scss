@@ -40,7 +40,7 @@
 .menu {
   display: flex;
   justify-content: flex-end;
-  flex: 0 0 266px;
+  flex: 0 1 266px;
   &__list {
     display: flex;
     li {
@@ -50,7 +50,11 @@
         border-radius: 50%;
       }
       @media (max-width: 425px) {
+        display: none;
         margin: 0 0 0 15px;
+        &:last-child {
+        display: block;
+      }
       }
     }
   }
