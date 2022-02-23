@@ -1,0 +1,115 @@
+.messenger {
+  padding-top: 73px;
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+  }
+  &__left-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border-bottom: 1px solid #DBDBDB;
+    padding: 10px;
+  }
+  &__user-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__new-message {
+    font-size: 23px;
+    color: #262626;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  &__main-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 230px;
+  }
+  &__main-user-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+    cursor: pointer;
+  }
+  &__arrow {
+    padding: 0 10px;
+    transform: rotate(180deg);
+    cursor: pointer;
+    color: #262626;
+  }
+  &__profile {
+    display: flex;
+    padding: 8px 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: #FAFAFA;
+    }
+    img {
+      width: 56px;
+      border-radius: 50%;
+      padding-right: 8px;
+    }
+  }
+  &__profile-name {
+    font-size: 14px;
+    line-height: 11px;
+    color: #262626;
+  }
+  &__status {
+    font-size: 14px;
+    line-height: 11px;
+    color: #8E8E8E;
+  }
+  &__left {
+    flex: 1 1 auto;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 585px;
+    border-left: 1px solid #DBDBDB;
+    padding: 5px;
+    @media (max-width: 580px) {
+      display: none;
+    }
+  }
+  &__icon {
+    margin-bottom: 16px;
+  }
+  &__title {
+    color: #262626;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 17px;
+    margin-bottom: 16px;
+  }
+  &__subtitle {
+    font-size: 14px;
+    line-height: 11px;
+    text-align: center;
+    color: #8E8E8E;
+    margin-bottom: 28px;
+  }
+  &__btn-send {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px 9px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18 / 14 * 100%;
+  }
+}

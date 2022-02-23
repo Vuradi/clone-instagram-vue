@@ -1,19 +1,16 @@
 <template>
-  <div class="wrapper">
     <the-nav-bar/>
     <main class="main">
-      <home></home>
+      <router-view></router-view>
     </main>
     <the-footer/>
-  </div>
 </template>
 
 <script>
 import TheNavBar from './components/TheNavBar.vue';
-import Home from './views/Home.vue';
 import TheFooter from './components/TheFooter.vue';
 
 export default {
-  components: { TheNavBar, Home, TheFooter },
+  components: { TheNavBar, TheFooter },
 };
 </script>

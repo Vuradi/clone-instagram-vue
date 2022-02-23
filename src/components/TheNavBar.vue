@@ -10,14 +10,16 @@
       <nav class="header__menu menu">
         <ul class="menu__list">
           <li class="menu__item"><a href="" class="menu__link _icon-home"></a></li>
-          <li class="menu__item"><a href="" class="menu__link _icon-messenger"></a></li>
+          <li class="menu__item">
+            <router-link to="/messenger" class="menu__link _icon-messenger"></router-link>
+          </li>
           <li class="menu__item"><a href="" class="menu__link _icon-new-posts"></a></li>
           <li class="menu__item"><a href="" class="menu__link _icon-navigate"></a></li>
           <li class="menu__item"><a href="" class="menu__link _icon-favourite"></a></li>
           <li class="menu__item">
-            <a href="" class="menu__link">
+            <router-link to="/" class="menu__link">
             <img src="../assets/img/posts/girl-post.png" alt="">
-             </a>
+             </router-link>
           </li>
         </ul>
       </nav>
