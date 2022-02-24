@@ -9,7 +9,9 @@
       </div>
       <nav class="header__menu menu">
         <ul class="menu__list">
-          <li class="menu__item"><a href="" class="menu__link _icon-home"></a></li>
+          <li class="menu__item">
+            <router-link to="/home" class="menu__link _icon-home"></router-link>
+          </li>
           <li class="menu__item">
             <router-link to="/messenger" class="menu__link _icon-messenger"></router-link>
           </li>

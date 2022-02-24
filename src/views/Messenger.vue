@@ -11,18 +11,19 @@
             <div class="messenger__new-message _icon-new-messages"></div>
           </div>
           <div class="messenger__left-bottom">
-            <div class="messenger__profile">
+            <div class="messenger__profile contact">
               <img src="../assets/img/posts/girl4-post.png" alt="girl">
               <div class="messenger__user-info">
-                <div class="messenger__profile-name">lauramatthews</div>
-                <div class="messenger__status">Active 1h ago</div>
+                <div class="messenger__profile-name contact__name">lauramatthews</div>
+                <div class="messenger__status contact__status">Active 1h ago</div>
               </div>
             </div>
-            <div class="messenger__profile">
+            <div class="messenger__profile contact">
               <img src="../assets/img/posts/girl2-post.png" alt="girl">
               <div class="messenger__user-info">
-                <div class="messenger__profile-name">ednamanz</div>
-                <div class="messenger__status">Imperdiet in sit rhoncus, eleifend</div>
+                <div class="messenger__profile-name contact__name">ednamanz</div>
+                <div class="messenger__status contact__status">
+                  Imperdiet in sit rhoncus, eleifend</div>
               </div>
             </div>
           </div>

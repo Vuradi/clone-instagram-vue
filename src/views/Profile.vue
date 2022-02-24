@@ -28,22 +28,22 @@
   </div>
   <div class="stories">
     <div class="stories__container _container">
-      <div class="stories__wrapper">
-        <a href="#"  class="stories__story story">
-          <img src="../assets/img/posts/girl2-post.png" alt="girl">
-          <p class="story__title">Made us</p>
+      <div class="stories__wrapper reels">
+        <a href="#"  class="stories__story reels__story story">
+          <img class="story__img" src="../assets/img/posts/girl2-post.png" alt="girl">
+          <p class="story__title reels__title">Made us</p>
         </a>
-        <a href="#"  class="stories__story story">
-          <img src="../assets/img/posts/girl3-post.png" alt="girl">
-          <p class="story__title">Lorem...</p>
+        <a href="#"  class="stories__story reels__story story">
+          <img class="story__img" src="../assets/img/posts/girl3-post.png" alt="girl">
+          <p class="story__title reels__title">Lorem...</p>
         </a>
-        <a href="#"  class="stories__story story">
-          <img src="../assets/img/posts/boy-post.png" alt="girl">
-          <p class="story__title">Lorem...</p>
+        <a href="#"  class="stories__story reels__story story">
+          <img class="story__img" src="../assets/img/posts/boy-post.png" alt="girl">
+          <p class="story__title reels__title">Lorem...</p>
         </a>
-        <a href="#" class="stories__story story">
-          <img src="../assets/img/posts/girl4-post.png" alt="girl">
-          <p class="story__title">Lorem...</p>
+        <a href="#" class="stories__story reels__story story">
+          <img class="story__img" src="../assets/img/posts/girl4-post.png" alt="girl">
+          <p class="story__title reels__title">Lorem...</p>
         </a>
       </div>
     </div>

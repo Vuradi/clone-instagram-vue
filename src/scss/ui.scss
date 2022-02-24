@@ -10,3 +10,55 @@
 .pointer {
   cursor: pointer;
 }
+
+.contact {
+  display: flex;
+  img {
+    border-radius: 50%;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__name {
+    font-size: 14px;
+    line-height: 11px;
+    color: #262626;
+  }
+  &__status {
+    font-size: 14px;
+    line-height: 11px;
+    color: #8E8E8E;
+  }
+  &__link {
+    font-weight: 600;
+    color: #0095F6;
+    transition: color 0.5s ease;
+    &:hover {
+      color: #053657;
+    }
+  }
+}
+
+.reels {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  &__story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      border-radius: 50%;
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16 / 14 * 100%;
+    text-align: center;
+    letter-spacing: 0.12px;
+  }
+}
