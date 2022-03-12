@@ -20,38 +20,49 @@
             <p class="story-following__title reels__title">Lorem...</p>
           </a>
         </div>
-        <article class="post-following__wrapper post-following">
-          <div class="post-following__top">
-            <div class="post-following__user">
-              <img class="post-following__img-account"
-                   src="../assets/img/posts/boy-post.png" alt="boy">
-              <div class="post-following__user-name">terrylucas</div>
+        <div v-if="$store.getters['home/postFollowing']">
+          <article
+            v-for="post in $store.getters['home/postFollowing']"
+            :key="post.name"
+            class="post-following__wrapper post-following"
+          >
+            <div class="post-following__top">
+              <div class="post-following__user">
+                <img class="post-following__img-account"
+                     :src="post.img" alt="boy">
+                <div class="post-following__user-name">{{ post.name }}</div>
+              </div>
+              <div class="post-following__drop-menu">&hellip;</div>
             </div>
-            <div class="post-following__drop-menu">&hellip;</div>
-          </div>
-          <img class="post-following__img-post" src="../assets/img/posts/boy-post.png" alt="boy">
-          <div class="post-following__actions">
-            <div class="post-following__main-actions">
-              <button class="post-following__action _icon-favourite"></button>
-              <button class="post-following__action _icon-comment"></button>
-              <button class="post-following__action _icon-share-post"></button>
+            <img class="post-following__img-post" :src="post.img" alt="boy">
+            <div class="post-following__actions">
+              <div class="post-following__main-actions">
+                <button class="post-following__action _icon-favourite"></button>
+                <button class="post-following__action _icon-comment"></button>
+                <button class="post-following__action _icon-share-post"></button>
+              </div>
+              <button class="post-following__action _icon-save"></button>
             </div>
-            <button class="post-following__action _icon-save"></button>
-          </div>
-          <div class="post-following__info">
-            <div class="post-following__amount-likes">1.069 Likes</div>
-            <div class="post-following__description">
-              <span>terrylucas</span>
-              Imperdiet in sit rhoncus, eleifend tellus augue lectus potenti pellentesque
+            <div class="post-following__info">
+              <div class="post-following__amount-likes">1.069 Likes</div>
+              <div class="post-following__description">
+                <span>{{ post.name }}</span>
+                I'm {{ post.nickname }}
+              </div>
+              <div class="post-following__amount-comment">View all 100 comments</div>
+              <div class="post-following__time-post">1 hour ago</div>
             </div>
-            <div class="post-following__amount-comment">View all 100 comments</div>
-            <div class="post-following__time-post">1 hour ago</div>
+            <div class="post-following__comment-wrapper">
+              <input class="post-following__comment-input" type="text"
+                     placeholder="Add a comment...">
+              <button class="post-following__btn-post">Post</button>
+            </div>
+          </article>
+          <div
+            v-show="$store.getters['home/postFollowing'].length > 3"
+            v-intersection="loadPosts" class="observer">
           </div>
-          <div class="post-following__comment-wrapper">
-            <input class="post-following__comment-input" type="text" placeholder="Add a comment...">
-            <button class="post-following__btn-post">Post</button>
-          </div>
-        </article>
+        </div>
       </div>
       <div class="post-feed__sidebar sidebar">
         <div class="sidebar__main-user contact">
@@ -100,6 +111,13 @@
 
 <script>
 export default {
-
+  methods: {
+    loadPosts() {
+      this.$store.dispatch('home/loadPostFollowing');
+    },
+  },
+  mounted() {
+    this.$store.dispatch('home/loadPostFollowing');
+  },
 };
 </script>

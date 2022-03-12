@@ -123,13 +123,19 @@
   }
   &__img-account {
     width: 32px;
+    height: 32px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
   }
   &__drop-menu {
     font-size: 25px;
   }
   &__img-post {
     width: 100%;
+    height: 614px;
+    object-fit: cover;
+    object-position: top;
   }
   &__actions {
     display: flex;
@@ -198,3 +204,4 @@
     }
   }
 }
+
